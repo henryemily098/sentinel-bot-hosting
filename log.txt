@@ -1,0 +1,585 @@
+[INFO] Scanning for projects...
+[INFO]
+[INFO] -----------------------< com.mycompany:backend >------------------------
+[INFO] Building backend 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- clean:3.3.2:clean (default-clean) @ backend ---
+[INFO] Deleting D:\tugas\pemrograman_berorientasi_objek\PROJECTTUBES_PRODUCTION\backend\target
+[INFO]
+[INFO] --- kotlin:2.3.10:kapt (default-kapt) @ backend ---
+[INFO] No sources to compile
+[INFO]
+[INFO] --- resources:3.3.1:resources (default-resources) @ backend ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 15 resources from src\main\resources to target\classes
+[INFO]
+[INFO] --- kotlin:2.3.10:compile (default-compile) @ backend ---
+[INFO] No sources to compile
+[INFO]
+[INFO] --- kotlin:2.3.10:compile (compile) @ backend ---
+[INFO] No sources to compile
+[INFO]
+[INFO] --- compiler:3.13.0:compile (compile) @ backend ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 91 source files with javac [debug parameters release 21] to target\classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR :
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/authentication/LoginAccount.java:[31,40] cannot find symbol
+  symbol: method getClientId()
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/authentication/LoginAccount.java:[33,61] cannot find symbol
+  symbol: method getCallbackUrl()
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/authentication/LoginAccount.java:[44,38] cannot find symbol
+  symbol: method getBaseURL()
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/authentication/LoginAccount.java:[54,51] cannot find symbol
+  symbol: method getBaseURL()
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/authentication/LoginAccount.java:[58,46] cannot find symbol
+  symbol: method getCallbackUrl()
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/authentication/LoginAccount.java:[65,54] cannot find symbol
+  symbol: method getClientId()
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/authentication/LoginAccount.java:[65,74] cannot find symbol
+  symbol: method getClientSecret()
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/authentication/LoginAccount.java:[71,51] cannot find symbol
+  symbol:   method getToken_type()
+  location: variable token of type com.mycompany.backend.model.authentication.Token
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/authentication/LoginAccount.java:[71,81] cannot find symbol
+  symbol:   method getAccess_token()
+  location: variable token of type com.mycompany.backend.model.authentication.Token
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/authentication/LoginAccount.java:[76,51] cannot find symbol
+  symbol:   method getToken_type()
+  location: variable token of type com.mycompany.backend.model.authentication.Token
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/authentication/LoginAccount.java:[76,81] cannot find symbol
+  symbol:   method getAccess_token()
+  location: variable token of type com.mycompany.backend.model.authentication.Token
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/authentication/LoginAccount.java:[81,59] cannot find symbol
+  symbol: method getToken()
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/authentication/LoginAccount.java:[95,34] cannot find symbol
+  symbol:   method setId(java.lang.String)
+  location: variable configuration of type com.mycompany.backend.model.Configuration
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/authentication/LoginAccount.java:[96,34] cannot find symbol
+  symbol:   method setBadwordsEnabled(boolean)
+  location: variable configuration of type com.mycompany.backend.model.Configuration
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/authentication/LoginAccount.java:[97,34] cannot find symbol
+  symbol:   method setScammerDetected(boolean)
+  location: variable configuration of type com.mycompany.backend.model.Configuration
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/authentication/LoginAccount.java:[98,34] cannot find symbol
+  symbol:   method setPhisingLinkDetected(boolean)
+  location: variable configuration of type com.mycompany.backend.model.Configuration
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/authentication/LoginAccount.java:[99,34] cannot find symbol
+  symbol:   method setLogChannelId(<nulltype>)
+  location: variable configuration of type com.mycompany.backend.model.Configuration
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/authentication/LoginAccount.java:[100,34] cannot find symbol
+  symbol:   method setPrefix(java.lang.String)
+  location: variable configuration of type com.mycompany.backend.model.Configuration
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/authentication/LoginAccount.java:[108,38] cannot find symbol
+  symbol: method getBaseURL()
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/authentication/LoginAccount.java:[122,51] cannot find symbol
+  symbol:   method getToken_type()
+  location: variable token of type com.mycompany.backend.model.authentication.Token
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/authentication/LoginAccount.java:[122,81] cannot find symbol
+  symbol:   method getAccess_token()
+  location: variable token of type com.mycompany.backend.model.authentication.Token
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/authentication/LoginAccount.java:[127,51] cannot find symbol
+  symbol:   method getToken_type()
+  location: variable token of type com.mycompany.backend.model.authentication.Token
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/authentication/LoginAccount.java:[127,81] cannot find symbol
+  symbol:   method getAccess_token()
+  location: variable token of type com.mycompany.backend.model.authentication.Token
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/authentication/LoginAccount.java:[132,59] cannot find symbol
+  symbol: method getToken()
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/authentication/LoginAccount.java:[142,38] cannot find symbol
+  symbol: method getBaseURL()
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/authentication/LoginAccount.java:[149,34] cannot find symbol
+  symbol: method getBaseURL()
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/authentication/ManageAccount.java:[43,67] cannot find symbol
+  symbol:   method getStatus()
+  location: variable errorResponse of type com.mycompany.backend.controller.authentication.ErrorResponse
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/authentication/ManageAccount.java:[51,66] cannot find symbol
+  symbol:   method getStatus()
+  location: variable errorResponse of type com.mycompany.backend.controller.authentication.ErrorResponse
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/authentication/ManageAccount.java:[59,68] cannot find symbol
+  symbol:   method getStatus()
+  location: variable errorResponse of type com.mycompany.backend.controller.authentication.ErrorResponse
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/authentication/ManageAccount.java:[68,69] cannot find symbol
+  symbol:   method getStatus()
+  location: variable errorResponse of type com.mycompany.backend.controller.authentication.ErrorResponse
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/authentication/ManageAccount.java:[73,48] cannot find symbol
+  symbol:   method getRefresh_token()
+  location: variable token of type com.mycompany.backend.model.authentication.Token
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/authentication/ManageAccount.java:[78,54] cannot find symbol
+  symbol: method getClientId()
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/authentication/ManageAccount.java:[78,74] cannot find symbol
+  symbol: method getClientSecret()
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/authentication/ManageAccount.java:[84,54] cannot find symbol
+  symbol:   method getToken_type()
+  location: variable newToken of type com.mycompany.backend.model.authentication.Token
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/authentication/ManageAccount.java:[84,87] cannot find symbol
+  symbol:   method getAccess_token()
+  location: variable newToken of type com.mycompany.backend.model.authentication.Token
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/authentication/ManageAccount.java:[94,55] cannot find symbol
+  symbol:   method getStatus()
+  location: variable errorResponse of type com.mycompany.backend.controller.authentication.ErrorResponse
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/serverdashboard/BaseServerDashboard.java:[38,29] cannot find symbol
+  symbol:   method getId()
+  location: class com.mycompany.backend.model.authentication.Guild
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/serverdashboard/BaseServerDashboard.java:[48,56] cannot find symbol
+  symbol:   method getPermissions()
+  location: class com.mycompany.backend.model.authentication.Guild
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/serverdashboard/BaseServerDashboard.java:[49,91] cannot find symbol
+  symbol:   method isOwner()
+  location: class com.mycompany.backend.model.authentication.Guild
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/serverdashboard/ServerDashboard.java:[18,35] cannot find symbol
+  symbol: method getBaseURL()
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/serverdashboard/ServerDashboard.java:[18,87] cannot find symbol
+  symbol: method getBaseURL()
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/serverdashboard/ServerDashboard.java:[33,70] cannot find symbol
+  symbol:   method getName()
+  location: variable guild of type com.mycompany.backend.model.authentication.Guild
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/serverdashboard/ServerDashboard.java:[36,24] cannot find symbol
+  symbol: method getBaseURL()
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/serverdashboard/ServerDashboard.java:[36,90] cannot find symbol
+  symbol: method getBaseURL()
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/serverdashboard/ServerDashboard.java:[37,38] cannot find symbol
+  symbol: method getBaseURL()
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/serverdashboard/ServerDashboard.java:[37,90] cannot find symbol
+  symbol: method getBaseURL()
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/serverdashboard/ServerDashboard.java:[43,94] cannot find symbol
+  symbol: method getBaseURL()
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/serverdashboard/ServerDashboard.java:[43,146] cannot find symbol
+  symbol: method getBaseURL()
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/serverdashboard/ServerDashboard.java:[54,70] cannot find symbol
+  symbol:   method getName()
+  location: variable guild of type com.mycompany.backend.model.authentication.Guild
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/serverdashboard/ServerDashboard.java:[57,24] cannot find symbol
+  symbol: method getBaseURL()
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/serverdashboard/ServerDashboard.java:[57,90] cannot find symbol
+  symbol: method getBaseURL()
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/serverdashboard/ServerDashboard.java:[58,38] cannot find symbol
+  symbol: method getBaseURL()
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/serverdashboard/ServerDashboard.java:[58,90] cannot find symbol
+  symbol: method getBaseURL()
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/servermanagement/ServerNonSubsManagement.java:[25,25] cannot find symbol
+  symbol:   method getId()
+  location: class com.mycompany.backend.model.authentication.Guild
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/servermanagement/ServerNonSubsManagement.java:[29,48] cannot find symbol
+  symbol:   method getPermissions()
+  location: variable guild of type com.mycompany.backend.model.authentication.Guild
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/servermanagement/ServerNonSubsManagement.java:[30,84] cannot find symbol
+  symbol:   method isOwner()
+  location: variable guild of type com.mycompany.backend.model.authentication.Guild
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/servermanagement/ServerNonSubsManagement.java:[34,140] cannot find symbol
+  symbol:   method getId()
+  location: variable guild of type com.mycompany.backend.model.authentication.Guild
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/servermanagement/ServerSubsManagement.java:[30,25] cannot find symbol
+  symbol:   method getId()
+  location: class com.mycompany.backend.model.authentication.Guild
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/servermanagement/ServerSubsManagement.java:[34,48] cannot find symbol
+  symbol:   method getPermissions()
+  location: variable guild of type com.mycompany.backend.model.authentication.Guild
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/servermanagement/ServerSubsManagement.java:[35,84] cannot find symbol
+  symbol:   method isOwner()
+  location: variable guild of type com.mycompany.backend.model.authentication.Guild
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/servermanagement/ServerSubsManagement.java:[37,84] cannot find symbol
+  symbol:   method getId()
+  location: variable guild of type com.mycompany.backend.model.authentication.Guild
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/servermanagement/ServerSubsManagement.java:[38,111] cannot find symbol
+  symbol:   method getId()
+  location: variable guild of type com.mycompany.backend.model.authentication.Guild
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/servermanagement/ServerSubsManagement.java:[41,36] cannot find symbol
+  symbol:   method getEndTimestamp()
+  location: variable subsServer of type com.mycompany.backend.model.Subscriptions
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/servermanagement/ServerSubsManagement.java:[44,92] cannot find symbol
+  symbol:   method getId()
+  location: variable guild of type com.mycompany.backend.model.authentication.Guild
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/servermanagement/ServerSubsManagement.java:[50,42] cannot find symbol
+  symbol:   method getId()
+  location: class com.mycompany.backend.model.authentication.Guild
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/servermanagement/ServerSubsManagement.java:[50,63] cannot find symbol
+  symbol:   method getId()
+  location: variable guild of type com.mycompany.backend.model.authentication.Guild
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/violation/ViolationController.java:[43,40] cannot find symbol
+  symbol: method getApiKey()
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/violation/ViolationController.java:[44,63] cannot find symbol
+  symbol: method getToken()
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/violation/ViolationController.java:[44,133] constructor ErrorResponse in class com.mycompany.backend.controller.violation.ErrorResponse cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.String,org.springframework.http.HttpStatus
+  reason: actual and formal argument lists differ in length
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/violation/ViolationController.java:[46,52] cannot find symbol
+  symbol: method getConversationRepo()
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/violation/ViolationController.java:[49,104] cannot find symbol
+  symbol:   method getId()
+  location: class com.mycompany.backend.model.Conversation
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/violation/ViolationController.java:[50,54] cannot find symbol
+  symbol: method getConversationRepo()
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/violation/ViolationController.java:[55,35] constructor ErrorResponse in class com.mycompany.backend.controller.violation.ErrorResponse cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.String,org.springframework.http.HttpStatus
+  reason: actual and formal argument lists differ in length
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/violation/ViolationController.java:[56,47] cannot find symbol
+  symbol:   method getStatus()
+  location: variable error of type com.mycompany.backend.controller.violation.ErrorResponse
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/violation/ViolationController.java:[63,63] cannot find symbol
+  symbol: method getToken()
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/violation/ViolationController.java:[63,133] constructor ErrorResponse in class com.mycompany.backend.controller.violation.ErrorResponse cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.String,org.springframework.http.HttpStatus
+  reason: actual and formal argument lists differ in length
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/violation/ViolationController.java:[65,45] cannot find symbol
+  symbol: method getConversationRepo()
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/violation/ViolationController.java:[66,35] constructor ErrorResponse in class com.mycompany.backend.controller.violation.ErrorResponse cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.String,org.springframework.http.HttpStatus
+  reason: actual and formal argument lists differ in length
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/violation/ViolationController.java:[67,70] cannot find symbol
+  symbol:   method getStatus()
+  location: variable error of type com.mycompany.backend.controller.violation.ErrorResponse
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/violation/ViolationController.java:[70,35] constructor ErrorResponse in class com.mycompany.backend.controller.violation.ErrorResponse cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.String,org.springframework.http.HttpStatus
+  reason: actual and formal argument lists differ in length
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/violation/ViolationController.java:[71,47] cannot find symbol
+  symbol:   method getStatus()
+  location: variable error of type com.mycompany.backend.controller.violation.ErrorResponse
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/violation/ViolationController.java:[78,40] cannot find symbol
+  symbol: method getApiKey()
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/violation/ViolationController.java:[79,63] cannot find symbol
+  symbol: method getToken()
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/violation/ViolationController.java:[79,133] constructor ErrorResponse in class com.mycompany.backend.controller.violation.ErrorResponse cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.String,org.springframework.http.HttpStatus
+  reason: actual and formal argument lists differ in length
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/violation/ViolationController.java:[83,33] cannot find symbol
+  symbol: method getBadwordListRepo()
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/violation/ViolationController.java:[84,80] cannot find symbol
+  symbol:   method getContent()
+  location: variable message of type com.mycompany.backend.model.discord.guild.Message
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/violation/ViolationController.java:[88,45] cannot find symbol
+  symbol: method getConversationRepo()
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/violation/ViolationController.java:[93,56] cannot find symbol
+  symbol:   method getId()
+  location: variable conversationResponse of type com.mycompany.backend.model.openAI.conversation.ConversationResponse
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/violation/ViolationController.java:[94,29] cannot find symbol
+  symbol:   method setGuildId(java.lang.String)
+  location: variable conversation of type com.mycompany.backend.model.Conversation
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/violation/ViolationController.java:[95,29] cannot find symbol
+  symbol:   method setChannelId(java.lang.String)
+  location: variable conversation of type com.mycompany.backend.model.Conversation
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/violation/ViolationController.java:[96,29] cannot find symbol
+  symbol:   method setLimitMessage(int)
+  location: variable conversation of type com.mycompany.backend.model.Conversation
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/violation/ViolationController.java:[97,29] cannot find symbol
+  symbol:   method setCount(int)
+  location: variable conversation of type com.mycompany.backend.model.Conversation
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/violation/ViolationController.java:[103,79] cannot find symbol
+  symbol:   method getId()
+  location: variable conversation of type com.mycompany.backend.model.Conversation
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/violation/ViolationController.java:[111,60] cannot find symbol
+  symbol:   method getId()
+  location: variable conversationResponse of type com.mycompany.backend.model.openAI.conversation.ConversationResponse
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/violation/ViolationController.java:[112,33] cannot find symbol
+  symbol:   method setCount(int)
+  location: variable conversation of type com.mycompany.backend.model.Conversation
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/violation/ViolationController.java:[118,40] cannot find symbol
+  symbol:   method getUserId()
+  location: variable message of type com.mycompany.backend.model.discord.guild.Message
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/violation/ViolationController.java:[118,70] cannot find symbol
+  symbol:   method getId()
+  location: variable message of type com.mycompany.backend.model.discord.guild.Message
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/violation/ViolationController.java:[118,132] cannot find symbol
+  symbol:   method getContent()
+  location: variable message of type com.mycompany.backend.model.discord.guild.Message
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/violation/ViolationController.java:[124,20] cannot find symbol
+  symbol:   method setContent(java.util.ArrayList<java.util.Map<java.lang.String,java.lang.String>>)
+  location: variable itemReq of type com.mycompany.backend.model.openAI.item.ItemReq
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/violation/ViolationController.java:[125,20] cannot find symbol
+  symbol:   method setType(java.lang.String)
+  location: variable itemReq of type com.mycompany.backend.model.openAI.item.ItemReq
+[INFO] 100 errors
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.988 s
+[INFO] Finished at: 2026-06-18T19:48:35+07:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.13.0:compile (compile) on project backend: Compilation failure: Compilation failure:
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/authentication/LoginAccount.java:[31,40] cannot find symbol
+[ERROR]   symbol: method getClientId()
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/authentication/LoginAccount.java:[33,61] cannot find symbol
+[ERROR]   symbol: method getCallbackUrl()
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/authentication/LoginAccount.java:[44,38] cannot find symbol
+[ERROR]   symbol: method getBaseURL()
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/authentication/LoginAccount.java:[54,51] cannot find symbol
+[ERROR]   symbol: method getBaseURL()
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/authentication/LoginAccount.java:[58,46] cannot find symbol
+[ERROR]   symbol: method getCallbackUrl()
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/authentication/LoginAccount.java:[65,54] cannot find symbol
+[ERROR]   symbol: method getClientId()
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/authentication/LoginAccount.java:[65,74] cannot find symbol
+[ERROR]   symbol: method getClientSecret()
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/authentication/LoginAccount.java:[71,51] cannot find symbol
+[ERROR]   symbol:   method getToken_type()
+[ERROR]   location: variable token of type com.mycompany.backend.model.authentication.Token
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/authentication/LoginAccount.java:[71,81] cannot find symbol
+[ERROR]   symbol:   method getAccess_token()
+[ERROR]   location: variable token of type com.mycompany.backend.model.authentication.Token
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/authentication/LoginAccount.java:[76,51] cannot find symbol
+[ERROR]   symbol:   method getToken_type()
+[ERROR]   location: variable token of type com.mycompany.backend.model.authentication.Token
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/authentication/LoginAccount.java:[76,81] cannot find symbol
+[ERROR]   symbol:   method getAccess_token()
+[ERROR]   location: variable token of type com.mycompany.backend.model.authentication.Token
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/authentication/LoginAccount.java:[81,59] cannot find symbol
+[ERROR]   symbol: method getToken()
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/authentication/LoginAccount.java:[95,34] cannot find symbol
+[ERROR]   symbol:   method setId(java.lang.String)
+[ERROR]   location: variable configuration of type com.mycompany.backend.model.Configuration
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/authentication/LoginAccount.java:[96,34] cannot find symbol
+[ERROR]   symbol:   method setBadwordsEnabled(boolean)
+[ERROR]   location: variable configuration of type com.mycompany.backend.model.Configuration
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/authentication/LoginAccount.java:[97,34] cannot find symbol
+[ERROR]   symbol:   method setScammerDetected(boolean)
+[ERROR]   location: variable configuration of type com.mycompany.backend.model.Configuration
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/authentication/LoginAccount.java:[98,34] cannot find symbol
+[ERROR]   symbol:   method setPhisingLinkDetected(boolean)
+[ERROR]   location: variable configuration of type com.mycompany.backend.model.Configuration
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/authentication/LoginAccount.java:[99,34] cannot find symbol
+[ERROR]   symbol:   method setLogChannelId(<nulltype>)
+[ERROR]   location: variable configuration of type com.mycompany.backend.model.Configuration
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/authentication/LoginAccount.java:[100,34] cannot find symbol
+[ERROR]   symbol:   method setPrefix(java.lang.String)
+[ERROR]   location: variable configuration of type com.mycompany.backend.model.Configuration
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/authentication/LoginAccount.java:[108,38] cannot find symbol
+[ERROR]   symbol: method getBaseURL()
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/authentication/LoginAccount.java:[122,51] cannot find symbol
+[ERROR]   symbol:   method getToken_type()
+[ERROR]   location: variable token of type com.mycompany.backend.model.authentication.Token
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/authentication/LoginAccount.java:[122,81] cannot find symbol
+[ERROR]   symbol:   method getAccess_token()
+[ERROR]   location: variable token of type com.mycompany.backend.model.authentication.Token
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/authentication/LoginAccount.java:[127,51] cannot find symbol
+[ERROR]   symbol:   method getToken_type()
+[ERROR]   location: variable token of type com.mycompany.backend.model.authentication.Token
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/authentication/LoginAccount.java:[127,81] cannot find symbol
+[ERROR]   symbol:   method getAccess_token()
+[ERROR]   location: variable token of type com.mycompany.backend.model.authentication.Token
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/authentication/LoginAccount.java:[132,59] cannot find symbol
+[ERROR]   symbol: method getToken()
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/authentication/LoginAccount.java:[142,38] cannot find symbol
+[ERROR]   symbol: method getBaseURL()
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/authentication/LoginAccount.java:[149,34] cannot find symbol
+[ERROR]   symbol: method getBaseURL()
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/authentication/ManageAccount.java:[43,67] cannot find symbol
+[ERROR]   symbol:   method getStatus()
+[ERROR]   location: variable errorResponse of type com.mycompany.backend.controller.authentication.ErrorResponse
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/authentication/ManageAccount.java:[51,66] cannot find symbol
+[ERROR]   symbol:   method getStatus()
+[ERROR]   location: variable errorResponse of type com.mycompany.backend.controller.authentication.ErrorResponse
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/authentication/ManageAccount.java:[59,68] cannot find symbol
+[ERROR]   symbol:   method getStatus()
+[ERROR]   location: variable errorResponse of type com.mycompany.backend.controller.authentication.ErrorResponse
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/authentication/ManageAccount.java:[68,69] cannot find symbol
+[ERROR]   symbol:   method getStatus()
+[ERROR]   location: variable errorResponse of type com.mycompany.backend.controller.authentication.ErrorResponse
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/authentication/ManageAccount.java:[73,48] cannot find symbol
+[ERROR]   symbol:   method getRefresh_token()
+[ERROR]   location: variable token of type com.mycompany.backend.model.authentication.Token
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/authentication/ManageAccount.java:[78,54] cannot find symbol
+[ERROR]   symbol: method getClientId()
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/authentication/ManageAccount.java:[78,74] cannot find symbol
+[ERROR]   symbol: method getClientSecret()
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/authentication/ManageAccount.java:[84,54] cannot find symbol
+[ERROR]   symbol:   method getToken_type()
+[ERROR]   location: variable newToken of type com.mycompany.backend.model.authentication.Token
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/authentication/ManageAccount.java:[84,87] cannot find symbol
+[ERROR]   symbol:   method getAccess_token()
+[ERROR]   location: variable newToken of type com.mycompany.backend.model.authentication.Token
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/authentication/ManageAccount.java:[94,55] cannot find symbol
+[ERROR]   symbol:   method getStatus()
+[ERROR]   location: variable errorResponse of type com.mycompany.backend.controller.authentication.ErrorResponse
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/serverdashboard/BaseServerDashboard.java:[38,29] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: class com.mycompany.backend.model.authentication.Guild
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/serverdashboard/BaseServerDashboard.java:[48,56] cannot find symbol
+[ERROR]   symbol:   method getPermissions()
+[ERROR]   location: class com.mycompany.backend.model.authentication.Guild
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/serverdashboard/BaseServerDashboard.java:[49,91] cannot find symbol
+[ERROR]   symbol:   method isOwner()
+[ERROR]   location: class com.mycompany.backend.model.authentication.Guild
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/serverdashboard/ServerDashboard.java:[18,35] cannot find symbol
+[ERROR]   symbol: method getBaseURL()
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/serverdashboard/ServerDashboard.java:[18,87] cannot find symbol
+[ERROR]   symbol: method getBaseURL()
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/serverdashboard/ServerDashboard.java:[33,70] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable guild of type com.mycompany.backend.model.authentication.Guild
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/serverdashboard/ServerDashboard.java:[36,24] cannot find symbol
+[ERROR]   symbol: method getBaseURL()
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/serverdashboard/ServerDashboard.java:[36,90] cannot find symbol
+[ERROR]   symbol: method getBaseURL()
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/serverdashboard/ServerDashboard.java:[37,38] cannot find symbol
+[ERROR]   symbol: method getBaseURL()
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/serverdashboard/ServerDashboard.java:[37,90] cannot find symbol
+[ERROR]   symbol: method getBaseURL()
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/serverdashboard/ServerDashboard.java:[43,94] cannot find symbol
+[ERROR]   symbol: method getBaseURL()
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/serverdashboard/ServerDashboard.java:[43,146] cannot find symbol
+[ERROR]   symbol: method getBaseURL()
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/serverdashboard/ServerDashboard.java:[54,70] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable guild of type com.mycompany.backend.model.authentication.Guild
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/serverdashboard/ServerDashboard.java:[57,24] cannot find symbol
+[ERROR]   symbol: method getBaseURL()
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/serverdashboard/ServerDashboard.java:[57,90] cannot find symbol
+[ERROR]   symbol: method getBaseURL()
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/serverdashboard/ServerDashboard.java:[58,38] cannot find symbol
+[ERROR]   symbol: method getBaseURL()
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/serverdashboard/ServerDashboard.java:[58,90] cannot find symbol
+[ERROR]   symbol: method getBaseURL()
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/servermanagement/ServerNonSubsManagement.java:[25,25] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: class com.mycompany.backend.model.authentication.Guild
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/servermanagement/ServerNonSubsManagement.java:[29,48] cannot find symbol
+[ERROR]   symbol:   method getPermissions()
+[ERROR]   location: variable guild of type com.mycompany.backend.model.authentication.Guild
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/servermanagement/ServerNonSubsManagement.java:[30,84] cannot find symbol
+[ERROR]   symbol:   method isOwner()
+[ERROR]   location: variable guild of type com.mycompany.backend.model.authentication.Guild
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/servermanagement/ServerNonSubsManagement.java:[34,140] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable guild of type com.mycompany.backend.model.authentication.Guild
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/servermanagement/ServerSubsManagement.java:[30,25] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: class com.mycompany.backend.model.authentication.Guild
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/servermanagement/ServerSubsManagement.java:[34,48] cannot find symbol
+[ERROR]   symbol:   method getPermissions()
+[ERROR]   location: variable guild of type com.mycompany.backend.model.authentication.Guild
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/servermanagement/ServerSubsManagement.java:[35,84] cannot find symbol
+[ERROR]   symbol:   method isOwner()
+[ERROR]   location: variable guild of type com.mycompany.backend.model.authentication.Guild
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/servermanagement/ServerSubsManagement.java:[37,84] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable guild of type com.mycompany.backend.model.authentication.Guild
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/servermanagement/ServerSubsManagement.java:[38,111] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable guild of type com.mycompany.backend.model.authentication.Guild
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/servermanagement/ServerSubsManagement.java:[41,36] cannot find symbol
+[ERROR]   symbol:   method getEndTimestamp()
+[ERROR]   location: variable subsServer of type com.mycompany.backend.model.Subscriptions
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/servermanagement/ServerSubsManagement.java:[44,92] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable guild of type com.mycompany.backend.model.authentication.Guild
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/servermanagement/ServerSubsManagement.java:[50,42] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: class com.mycompany.backend.model.authentication.Guild
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/servermanagement/ServerSubsManagement.java:[50,63] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable guild of type com.mycompany.backend.model.authentication.Guild
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/violation/ViolationController.java:[43,40] cannot find symbol
+[ERROR]   symbol: method getApiKey()
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/violation/ViolationController.java:[44,63] cannot find symbol
+[ERROR]   symbol: method getToken()
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/violation/ViolationController.java:[44,133] constructor ErrorResponse in class com.mycompany.backend.controller.violation.ErrorResponse cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    java.lang.String,org.springframework.http.HttpStatus
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/violation/ViolationController.java:[46,52] cannot find symbol
+[ERROR]   symbol: method getConversationRepo()
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/violation/ViolationController.java:[49,104] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: class com.mycompany.backend.model.Conversation
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/violation/ViolationController.java:[50,54] cannot find symbol
+[ERROR]   symbol: method getConversationRepo()
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/violation/ViolationController.java:[55,35] constructor ErrorResponse in class com.mycompany.backend.controller.violation.ErrorResponse cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    java.lang.String,org.springframework.http.HttpStatus
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/violation/ViolationController.java:[56,47] cannot find symbol
+[ERROR]   symbol:   method getStatus()
+[ERROR]   location: variable error of type com.mycompany.backend.controller.violation.ErrorResponse
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/violation/ViolationController.java:[63,63] cannot find symbol
+[ERROR]   symbol: method getToken()
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/violation/ViolationController.java:[63,133] constructor ErrorResponse in class com.mycompany.backend.controller.violation.ErrorResponse cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    java.lang.String,org.springframework.http.HttpStatus
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/violation/ViolationController.java:[65,45] cannot find symbol
+[ERROR]   symbol: method getConversationRepo()
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/violation/ViolationController.java:[66,35] constructor ErrorResponse in class com.mycompany.backend.controller.violation.ErrorResponse cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    java.lang.String,org.springframework.http.HttpStatus
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/violation/ViolationController.java:[67,70] cannot find symbol
+[ERROR]   symbol:   method getStatus()
+[ERROR]   location: variable error of type com.mycompany.backend.controller.violation.ErrorResponse
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/violation/ViolationController.java:[70,35] constructor ErrorResponse in class com.mycompany.backend.controller.violation.ErrorResponse cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    java.lang.String,org.springframework.http.HttpStatus
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/violation/ViolationController.java:[71,47] cannot find symbol
+[ERROR]   symbol:   method getStatus()
+[ERROR]   location: variable error of type com.mycompany.backend.controller.violation.ErrorResponse
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/violation/ViolationController.java:[78,40] cannot find symbol
+[ERROR]   symbol: method getApiKey()
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/violation/ViolationController.java:[79,63] cannot find symbol
+[ERROR]   symbol: method getToken()
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/violation/ViolationController.java:[79,133] constructor ErrorResponse in class com.mycompany.backend.controller.violation.ErrorResponse cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    java.lang.String,org.springframework.http.HttpStatus
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/violation/ViolationController.java:[83,33] cannot find symbol
+[ERROR]   symbol: method getBadwordListRepo()
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/violation/ViolationController.java:[84,80] cannot find symbol
+[ERROR]   symbol:   method getContent()
+[ERROR]   location: variable message of type com.mycompany.backend.model.discord.guild.Message
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/violation/ViolationController.java:[88,45] cannot find symbol
+[ERROR]   symbol: method getConversationRepo()
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/violation/ViolationController.java:[93,56] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable conversationResponse of type com.mycompany.backend.model.openAI.conversation.ConversationResponse
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/violation/ViolationController.java:[94,29] cannot find symbol
+[ERROR]   symbol:   method setGuildId(java.lang.String)
+[ERROR]   location: variable conversation of type com.mycompany.backend.model.Conversation
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/violation/ViolationController.java:[95,29] cannot find symbol
+[ERROR]   symbol:   method setChannelId(java.lang.String)
+[ERROR]   location: variable conversation of type com.mycompany.backend.model.Conversation
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/violation/ViolationController.java:[96,29] cannot find symbol
+[ERROR]   symbol:   method setLimitMessage(int)
+[ERROR]   location: variable conversation of type com.mycompany.backend.model.Conversation
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/violation/ViolationController.java:[97,29] cannot find symbol
+[ERROR]   symbol:   method setCount(int)
+[ERROR]   location: variable conversation of type com.mycompany.backend.model.Conversation
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/violation/ViolationController.java:[103,79] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable conversation of type com.mycompany.backend.model.Conversation
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/violation/ViolationController.java:[111,60] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable conversationResponse of type com.mycompany.backend.model.openAI.conversation.ConversationResponse
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/violation/ViolationController.java:[112,33] cannot find symbol
+[ERROR]   symbol:   method setCount(int)
+[ERROR]   location: variable conversation of type com.mycompany.backend.model.Conversation
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/violation/ViolationController.java:[118,40] cannot find symbol
+[ERROR]   symbol:   method getUserId()
+[ERROR]   location: variable message of type com.mycompany.backend.model.discord.guild.Message
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/violation/ViolationController.java:[118,70] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable message of type com.mycompany.backend.model.discord.guild.Message
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/violation/ViolationController.java:[118,132] cannot find symbol
+[ERROR]   symbol:   method getContent()
+[ERROR]   location: variable message of type com.mycompany.backend.model.discord.guild.Message
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/violation/ViolationController.java:[124,20] cannot find symbol
+[ERROR]   symbol:   method setContent(java.util.ArrayList<java.util.Map<java.lang.String,java.lang.String>>)
+[ERROR]   location: variable itemReq of type com.mycompany.backend.model.openAI.item.ItemReq
+[ERROR] /D:/tugas/pemrograman_berorientasi_objek/PROJECTTUBES_PRODUCTION/backend/src/main/java/com/mycompany/backend/controller/violation/ViolationController.java:[125,20] cannot find symbol
+[ERROR]   symbol:   method setType(java.lang.String)
+[ERROR]   location: variable itemReq of type com.mycompany.backend.model.openAI.item.ItemReq
+[ERROR] -> [Help 1]
+[ERROR]
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR]
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
